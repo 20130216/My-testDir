@@ -1,0 +1,72 @@
+{
+  "markdown-mermaid.lightModeTheme": "base",
+  // "workbench.colorTheme": "Default Light+"
+
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "eeyore.yapf" //"esbenp.prettier-vscod"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8" //"ms-python.autopep8"
+  },
+  "python.defaultInterpreterPath": "/Users/wingzheng/anaconda3/bin/python",
+  "python.condaPath": "/Users/wingzheng/anaconda3/bin/conda",
+  "python.languageServer": "Default",
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 200,
+
+  "editor.formatOnSaveMode": "file",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14, //终端字体
+  "editor.fontFamily": "JetBrains Mono,Menlo, Monaco, 'Courier New', monospace",
+  "editor.cursorBlinking": "smooth",
+  "editor.mouseWheelZoom": true,
+  "editor.lineNumbers": "on", //relative 相对行号，当前为0；interval 间隔行号 每10行显示一个
+
+  "editor.foldingHighlight": true, //折叠代码的第一行高亮显示
+  //"editor.renderLineHighlight":"all",//gutter仅在行号区域高亮显示 all 行号+代码区域都高亮显示
+
+  "editor.parameterHints.enabled": true, //参数自动提示
+  "editor.matchBrackets": "always", //括号匹配
+  "python.analysis.completeFunctionParens": true, //显示括号中提示词
+
+  "code-runner.runInTerminal": true, //终端输出结果,否则只会在“输出”端输出结果
+  "code-runner.clearPreviousOutput": true, //清空之前输出结果
+
+  "markdown-mermaid.languages": ["Microsoft YaHei", "mermaid"],
+  "code-runner.defaultLanguage": "python",
+  "settingsSync.ignoredSettings": [
+    "-python.defaultInterpreterPath",
+    "-python.condaPath"
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "on",
+  "workbench.colorTheme": "Default Light+",
+  "yapf.path": ["/Users/wingzheng/anaconda3/pkgs/yapf-0.31.0-pyhd3eb1b0_0"],
+  "terminal.integrated.inheritEnv": false,
+  //   "python.formatting.provider": "none"
+
+  // The default color to be used in svg previews
+  "gutterpreview.currentColorForSVG": "white", // svg预览中使用的默认颜色
+
+  // A flag which indicates whether resources should be resolved from references
+  "gutterpreview.enableReferenceLookup": false, // 指示是否应该从引用解析资源的标志
+
+  // The maximum height of the image preview
+  "gutterpreview.imagePreviewMaxHeight": "100", // 预览图片高度最大值
+
+  // Specify path mapping to be computed relative to project root.
+  "gutterpreview.paths": {}, // 指定要相对于项目根计算的路径映射
+
+  // A flag which indicates whether the image preview should be shown on the gutter
+  "gutterpreview.showImagePreviewOnGutter": true, // 指示图像预览是否应显示在左侧的行栏
+
+  // A flag which indicates whether to underline recognized URLs
+  "gutterpreview.showUnderline": true, // 是否对已识别的url加下划线
+
+  // Additional folder to consider when resolving relative urls
+  "gutterpreview.sourceFolder": "src" // 解析相对url时要考虑的附加文件夹
+}
